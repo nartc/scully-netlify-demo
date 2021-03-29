@@ -6,7 +6,8 @@
     "start": "ng serve",
     "build": "ng build",
     "scully": "npx scully --",
-    "scully:serve": "npx scully serve --"
+    "scully:serve": "npx scully serve --",
+    "build:prod": "ng build --prod && scully --prod --scanRoutes"
   },
   "private": true,
   "dependencies": {
